@@ -1,7 +1,12 @@
+import { BrowserRouter as Router, Switch } from "react-router-dom";
 import "./App.css";
 
 function App() {
-	return <div className="todo-app"></div>;
+	return (
+		<Router>
+			<Switch></Switch>
+		</Router>
+	);
 }
 
 export default App;
